@@ -25,7 +25,7 @@ export function Hero({ onGetStarted }: HeroProps) {
           </h1>
           
           <p className="mt-6 text-lg leading-8 text-zinc-400 sm:text-xl">
-            4K export. Half the price. AI-powered tennis highlight generation in seconds.
+            Get 4K highlights from your tennis matches. 7-day free trial. No credit card required.
           </p>
           
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

@@ -62,10 +62,10 @@ export function UploadForm({ onSubmit, isLoading }: UploadFormProps) {
       <div className="container mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Upload Your Match
+            Start Your Free Trial
           </h2>
           <p className="mt-4 text-lg text-zinc-400">
-            Start your free trial and get AI-powered highlights in minutes
+            Get 7 days free. Upload your match, get 4K highlights, then decide.
           </p>
         </div>
 
@@ -155,12 +155,12 @@ export function UploadForm({ onSubmit, isLoading }: UploadFormProps) {
                 Processing...
               </span>
             ) : (
-              'Start Free Trial'
+              'Activate Free Trial & Upload'
             )}
           </Button>
 
           <p className="text-center text-xs text-zinc-500">
-            By uploading, you agree to our Terms of Service and Privacy Policy
+            No credit card required. 7-day free trial. Cancel anytime.
           </p>
         </form>
       </div>
