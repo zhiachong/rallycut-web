@@ -10,7 +10,6 @@ interface HeroProps {
 export function Hero({ onGetStarted }: HeroProps) {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-zinc-900 to-zinc-950 py-20 sm:py-32">
-      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
       <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <div className="inline-flex items-center rounded-full border border-zinc-700 bg-zinc-900/50 px-3 py-1 text-sm font-medium text-zinc-400 backdrop-blur-sm mb-8">
