@@ -18,10 +18,11 @@ export function Hero({ onGetStarted }: HeroProps) {
           </div>
           
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
-            SwingVision for{' '}
+            Get{' '}
             <span className="bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent">
-              highlights
+              4K highlights
             </span>
+            {' '}in minutes
           </h1>
           
           <p className="mt-6 text-lg leading-8 text-zinc-400 sm:text-xl">
