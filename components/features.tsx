@@ -13,14 +13,9 @@ const features = [
     icon: Video,
   },
   {
-    name: 'Seconds, Not Hours',
+    name: 'Minutes, Not Hours',
     description: 'Get your edited highlights in minutes. No more manual scrubbing through hours of footage.',
     icon: Clock,
-  },
-  {
-    name: 'Match Statistics',
-    description: 'Get detailed match stats including shot placement, rally length, and player performance.',
-    icon: Trophy,
   },
 ];
 

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "RallyCut - AI Tennis Highlights",
-  description: "SwingVision for highlights. 4K export. Half the price. AI-powered tennis highlight generation in seconds.",
+  description: "Get 4K tennis highlights in minutes. 7-day free trial. AI-powered highlight extraction.",
 };
 
 export default function RootLayout({
