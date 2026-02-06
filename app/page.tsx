@@ -1,6 +1,4 @@
 'use client';
-
-import { useState } from 'react';
 import { Hero } from '@/components/hero';
 import { Features } from '@/components/features';
 import { Pricing } from '@/components/pricing';
@@ -9,8 +7,6 @@ import { FAQ } from '@/components/faq';
 import { Footer } from '@/components/footer';
 
 export default function Home() {
-  const [isSubscribed, setIsSubscribed] = useState(false);
-
   const handleSubscribe = async () => {
     try {
       // Redirect to Stripe checkout
@@ -42,7 +38,7 @@ export default function Home() {
       <Hero onGetStarted={handleSubscribe} />
       <Features />
       <Pricing onSubscribe={handleSubscribe} />
-      <UploadForm isSubscribed={isSubscribed} onSubscribe={handleSubscribe} />
+      <UploadForm onSubmit={(file, email) => handleSubscribe()} />
       <FAQ />
       <Footer />
     </main>
