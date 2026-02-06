@@ -12,9 +12,9 @@ export function Hero({ onGetStarted }: HeroProps) {
     <section className="relative overflow-hidden bg-gradient-to-b from-zinc-900 to-zinc-950 py-20 sm:py-32">
       <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <div className="inline-flex items-center rounded-full border border-zinc-700 bg-zinc-900/50 px-3 py-1 text-sm font-medium text-zinc-400 backdrop-blur-sm mb-8">
-            <Sparkles className="mr-2 h-4 w-4 text-yellow-500" />
-            <span>Now with 4K export</span>
+          <div className="inline-flex items-center rounded-full border border-green-500/50 bg-green-500/10 px-3 py-1 text-sm font-medium text-green-400 backdrop-blur-sm mb-8">
+            <Sparkles className="mr-2 h-4 w-4" />
+            <span>For Tennis Players Only</span>
           </div>
           
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
@@ -26,7 +26,7 @@ export function Hero({ onGetStarted }: HeroProps) {
           </h1>
           
           <p className="mt-6 text-lg leading-8 text-zinc-400 sm:text-xl">
-            Get 4K highlights from your tennis matches. 7-day free trial. No credit card required.
+            AI-powered tennis highlight extraction. Get 4K-quality match highlights in minutes. 7-day free trial. No credit card required.
           </p>
           
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

@@ -25,10 +25,10 @@ export function Features() {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Everything you need for perfect highlights
+            Built for Tennis. Designed for You.
           </h2>
           <p className="mt-6 text-lg leading-8 text-zinc-400">
-            RallyCut uses advanced AI to find your best moments and present them beautifully.
+            RallyCut uses advanced AI to find your best rallies and export them in stunning 4K. From court to share in minutes.
           </p>
         </div>
         

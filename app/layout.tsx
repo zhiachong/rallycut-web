@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RallyCut - AI Tennis Highlights",
-  description: "Get 4K tennis highlights in minutes. 7-day free trial. AI-powered highlight extraction.",
+  title: "RallyCut - AI Tennis Highlights | For Tennis Players",
+  description: "AI-powered tennis highlight extraction. Get 4K match highlights in minutes. Built by tennis players for tennis players. 7-day free trial.",
 };
 
 export default function RootLayout({
