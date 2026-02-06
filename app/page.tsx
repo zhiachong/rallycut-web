@@ -1,6 +1,7 @@
 'use client';
 import { Hero } from '@/components/hero';
 import { Features } from '@/components/features';
+import { Credibility } from '@/components/credibility';
 import { Pricing } from '@/components/pricing';
 import { UploadForm } from '@/components/upload-form';
 import { FAQ } from '@/components/faq';
@@ -37,6 +38,7 @@ export default function Home() {
     <main className="min-h-screen bg-zinc-950">
       <Hero onGetStarted={handleSubscribe} />
       <Features />
+      <Credibility />
       <Pricing onSubscribe={handleSubscribe} />
       <UploadForm onSubmit={(file, email) => handleSubscribe()} />
       <FAQ />
