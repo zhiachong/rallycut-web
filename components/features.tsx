@@ -18,8 +18,8 @@ const features = [
     icon: Clock,
   },
   {
-    name: 'Highlight Reels Ready to Go',
-    description: 'Get polished highlight reels ready to share instantly on social media or with your coach.',
+    name: 'No Watermark',
+    description: 'Your highlights, your brand. Unlike SwingVision, we never add watermarks — even on the free tier.',
     icon: Trophy,
   },
 ];
