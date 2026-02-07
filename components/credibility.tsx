@@ -6,8 +6,8 @@ import { Trophy, Target, Zap } from 'lucide-react';
 const credentials = [
   {
     icon: Trophy,
-    title: 'Built by Competitive Players',
-    description: 'Created by experienced tennis players who understand what matters: clean, quick edits you can share instantly.',
+    title: 'Built by Tennis Players',
+    description: 'We play tennis. We know the grind. Building the app we wanted to use.',
   },
   {
     icon: Target,

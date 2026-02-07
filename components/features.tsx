@@ -17,6 +17,11 @@ const features = [
     description: 'Get your edited highlights in minutes. No more manual scrubbing through hours of footage.',
     icon: Clock,
   },
+  {
+    name: 'Highlight Reels Ready to Go',
+    description: 'Get polished highlight reels ready to share instantly on social media or with your coach.',
+    icon: Trophy,
+  },
 ];
 
 export function Features() {
